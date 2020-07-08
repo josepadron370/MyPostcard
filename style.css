@@ -23,6 +23,11 @@ input {
     margin:0%;
 }
 
+.postcard-header img {
+    max-width: 60px;
+    float: right;
+}
+
 .left-part {
     float: left;
     background: red;
