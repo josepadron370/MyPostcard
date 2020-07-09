@@ -1,6 +1,11 @@
 body {
     background: gray;
     font-size: 18px;
+    font-family: 'Fondamento', cursive;
+}
+
+h1 {
+    font-size: 35px;
 }
 
 input {
@@ -9,8 +14,8 @@ input {
 
 .postcard {
     background: white;
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
     margin: auto;
     position: absolute;
     top: 50%;
