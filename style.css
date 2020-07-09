@@ -23,6 +23,13 @@ input {
     margin:0%;
 }
 
+.postcard-header {
+    background: green;
+    overflow: auto;
+    /* height: 60px; */
+
+}
+
 .postcard-header img {
     max-width: 60px;
     float: right;
@@ -41,4 +48,18 @@ input {
 
 .right-part input {
     display: block;
+}
+
+.postcard-body {
+    overflow: hidden;
+}
+
+.postcard-footer {
+    background: pink;
+    padding: 10px;
+}
+
+.postcard-footer input[type=submit] {
+    border: none;
+    border-bottom: 1px solid gray;
 }
