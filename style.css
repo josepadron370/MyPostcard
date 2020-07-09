@@ -1,5 +1,5 @@
 body {
-    background: blue;
+    background: gray;
     font-size: 18px;
 }
 
@@ -8,7 +8,7 @@ input {
 }
 
 .postcard {
-    background: yellow;
+    background: white;
     width: 600px;
     height: 400px;
     margin: auto;
@@ -24,7 +24,7 @@ input {
 }
 
 .postcard-header {
-    background: green;
+    /* background: green; */
     overflow: auto;
     /* height: 60px; */
 
@@ -37,7 +37,7 @@ input {
 
 .left-part {
     float: left;
-    background: red;
+    /* background: red; */
     width: 50%;
 }
 
@@ -55,8 +55,9 @@ input {
 }
 
 .postcard-footer {
-    background: pink;
+    /* background: pink; */
     padding: 10px;
+    text-align: center;
 }
 
 .postcard-footer input[type=submit] {
