@@ -10,6 +10,7 @@ h1 {
 
 input {
     font-size: 18px;
+    font-family: 'Fondamento', cursive;
 }
 
 .postcard {
@@ -68,4 +69,12 @@ input {
 .postcard-footer input[type=submit] {
     border: none;
     border-bottom: 1px solid gray;
+}
+
+.postcard-body input[type=text] {
+    border: none;
+    border-bottom: 1px solidgray;
+    width: 240px;
+    margin-bottom: 10px;
+    padding: 5px;
 }
